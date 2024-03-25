@@ -11,18 +11,18 @@
 # print the total time
 # Print the correct award message based on the total time
 
-swim_time = int(input("Enter the Swim time in minutes: "))
-cyc_time = int(input("Enter the Cycling time in minutes: "))
-run_time = int(input("Enter the Run time in minutes: "))
-total_time = str(swim_time + cyc_time + run_time)
-if (swim_time + cyc_time + run_time >=0 and swim_time + cyc_time + run_time <=100):
+s_time = int(input("Enter the Swim time in minutes: "))
+c_time = int(input("Enter the Cycling time in minutes: "))
+r_time = int(input("Enter the Run time in minutes: "))
+total_time = str(s_time + c_time + r_time)
+if (s_time + c_time + r_time >=0 and s_time + c_time + r_time <=100):
   print('''Congratulations! Your total time is: " + total_time + " minutes,\n
   You have been awarded Provincial Colours!''')
-elif (swim_time + cyc_time + run_time >=101 and swim_time + cyc_time + run_time <=105):
+elif (s_time + c_time + r_time >=101 and s_time + c_time + r_time <=105):
     print('''Congratulations! Your total time is: " + total_time + " minutes,\n
 You have been awarded Provincial Half Colours!''')
-elif (swim_time + cyc_time + run_time >=106 and swim_time + cyc_time + run_time <=110):
+elif (s_time + c_time + r_time >=106 and s_time + c_time + r_time <=110):
   print('''Congratulations! Your total time is: " + total_time + " minutes,\n
 You have been awarded Provincial Scroll!''')
-elif (swim_time + cyc_time + run_time >=111):
+elif (s_time + c_time + r_time >=111):
     print('''Your total time is: " + total_time + " minutes,\nThanks for taking part, better luck next time!''')
